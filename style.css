@@ -11,10 +11,16 @@ nav {
 
 #logo {
     height: 30px;
+    cursor: pointer;
 }
 ul li {
     list-style-type: none;
+    cursor: pointer;
+    transition: .1s ease-in-out;
     /* font-weight: bold; */
+}
+ul li:hover{
+    opacity: .6;
 }
 #active {
     font-weight: bold;
@@ -107,4 +113,5 @@ a {
     text-decoration: underline;
     color: white;
     margin: 0 10px;
+    cursor: pointer;
 }
